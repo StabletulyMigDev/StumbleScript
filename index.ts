@@ -18,6 +18,7 @@ function _init() {
 
 function _config() {
     // SS configuration
+    var enum
     export function enum = [
         OpenParen,
         CloseParen,
