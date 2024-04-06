@@ -18,4 +18,13 @@ function _init() {
 
 function _config() {
     // SS configuration
+    export function enum = [
+        OpenParen,
+        CloseParen,
+        Equals
+    ]
+
+    function tokenize() {
+        // token function
+    }
 }
