@@ -1,3 +1,21 @@
 function _init() {
-    import { program}   from "commander";
+    import { program }  from "commander";
+    const program = new Command();
+
+    program
+    .name('StrumbleScript interpreter')
+    .version('0.0.1')
+    .action(function() {
+        // add SS command prompt
+    })
+
+    program.command('load' *.ss)
+    .description('load and run an especific *.ss file')
+    .action(function() {
+        // load *.ss file function
+    })
+}
+
+function _config() {
+    // SS configuration
 }
