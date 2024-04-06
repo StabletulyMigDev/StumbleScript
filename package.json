@@ -1,0 +1,15 @@
+{
+  "name": "stumblescript",
+  "version": "0.0.1",
+  "description": "An javaAn JavaScript compiled programming language ",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "miguel v.",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "shelljs": "^0.8.5"
+  }
+}
